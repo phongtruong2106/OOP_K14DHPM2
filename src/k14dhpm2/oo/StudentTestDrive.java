@@ -10,6 +10,8 @@ public class StudentTestDrive {
         
 
         Student taiStudent = new Student();
+
+
         taiStudent.hoc();
         taiStudent.thi();
 
@@ -22,6 +24,11 @@ public class StudentTestDrive {
 
         Student trungStudent = new Student();
         trungStudent.hoatDongNgoaiKhoa();
+        trungStudent.hoc();
+
+
+        Student trongStudent = new Student("Trọng", 20, "003", "dhpm02");
+        trongStudent.thi();
 
     }
     
