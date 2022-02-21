@@ -12,9 +12,12 @@ public class IntSquare {
 
 
     //interfaces
-    int getSquareOperator(int value){/** toan tu X */
+    int getSquareMath(int value){/** toan tu X */
 
-        squareValue = value * value;
+        //implementation - thuat toan
+        //interface va implementation khong doc lap/tach biet
+        //squareValue = value * value;
+        squareValue = (int)Math.pow(value, 2);// thay doi implementation
 
         return squareValue;
 
