@@ -23,7 +23,7 @@ public class IntSquare {
 
     } */
 
-    //solution
+    //solution - Encapsuation - Abstraction
 
     //interfaces
     int getSquare(int value){
@@ -34,7 +34,7 @@ public class IntSquare {
 
     //implementation
     private int calculateSquare(int value){
-        return value * value;
+        return (int)Math.pow(value, 2);//tuong lai = n lan thay doi
     }
 
 
