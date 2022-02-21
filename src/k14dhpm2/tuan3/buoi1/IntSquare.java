@@ -11,8 +11,8 @@ public class IntSquare {
    private  int squareValue;
 
 
-    //interfaces
-    int getSquareMath(int value){/** toan tu X */
+   /* //interfaces
+    int getSquareMath(int value){
 
         //implementation - thuat toan
         //interface va implementation khong doc lap/tach biet
@@ -21,7 +21,23 @@ public class IntSquare {
 
         return squareValue;
 
+    } */
+
+    //solution
+
+    //interfaces
+    int getSquare(int value){
+        this.squareValue = this.calculateSquare(value);
+        return this.squareValue;
     }
+
+
+    //implementation
+    private int calculateSquare(int value){
+        return value * value;
+    }
+
+
 
 
     

@@ -9,7 +9,7 @@ public class IntSquareTestDrive {
 
         IntSquare intSquare = new IntSquare();
 
-        int result = intSquare.getSquareOperator(2);
+        int result = intSquare.getSquare(2);
 
         System.out.println("Result: " + result);
         
