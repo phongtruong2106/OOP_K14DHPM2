@@ -4,20 +4,6 @@
 */
 package k14dhpm2.tuan3.buoi6;
 
-public class Triangle {
-
-    private String sound;
-
-    public Triangle(String sound){
-        this.sound = sound;
-    }
-
-    void rotate(){
-        System.out.println("Xoay 360 độ");
-    }
-
-    void playSound(){
-        System.out.println("Play sound .aif: "+ this.sound + " music");
-    }
+public class Triangle extends Shape {
     
 }
