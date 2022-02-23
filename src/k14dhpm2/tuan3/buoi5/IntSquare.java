@@ -2,7 +2,7 @@
 *  created date: Feb 21, 2022
 *  author: cgm
 */
-package k14dhpm2.tuan3.buoi1;
+package k14dhpm2.tuan3.buoi5;
 //Host
 public class IntSquare {
 
