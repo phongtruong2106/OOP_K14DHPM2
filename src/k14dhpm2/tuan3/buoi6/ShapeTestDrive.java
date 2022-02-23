@@ -11,6 +11,9 @@ public class ShapeTestDrive {
         circle.rotate();
         circle.playSound();
 
+        Shape shape;
+
+        shape = circle;
 
 
         System.out.println("Testing Amoeba ...");
@@ -20,6 +23,9 @@ public class ShapeTestDrive {
         amoeba.setSound("amoebaMusic.hif");
         amoeba.rotate();
         amoeba.playSound();
+
+
+
     }
     
 }
