@@ -10,7 +10,7 @@ public class HCNTestDrive {
         hinhChuaNhat.setChieuDai(10);
         hinhChuaNhat.setChieuRong(5);
 
-        System.out.println(hinhChuaNhat.toString());
+        System.out.println(hinhChuaNhat);
     }
     
 }
