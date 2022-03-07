@@ -4,7 +4,7 @@
 */
 package k14dhpm2.tuan3.buoi6;
 
-public class Lion extends Aninmal {
+public class Lion extends Feline {
 
     @Override//ghi de
     protected void eat() {
@@ -15,5 +15,6 @@ public class Lion extends Aninmal {
     protected void makeNoise() {
         System.out.println("Lion sound ...");
     }
+
     
 }

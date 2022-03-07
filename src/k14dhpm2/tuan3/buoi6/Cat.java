@@ -4,7 +4,7 @@
 */
 package k14dhpm2.tuan3.buoi6;
 
-public class Cat extends Aninmal{
+public class Cat extends Feline{
 
     //dac thu cua rieng no
     @Override
@@ -16,5 +16,6 @@ public class Cat extends Aninmal{
     public void chaseButterfly(){
         System.out.println("Chasing ....");
     }
+
     
 }

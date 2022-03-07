@@ -12,9 +12,13 @@ public class Aninmal {
 
     protected void makeNoise(){
 
+        System.out.println("Keu ....");
+
     }
 
     protected void eat(){
+
+        System.out.println("An ...");
 
     }
 
