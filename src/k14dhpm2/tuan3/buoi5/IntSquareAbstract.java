@@ -4,11 +4,25 @@
 */
 package k14dhpm2.tuan3.buoi5;
 //Host
-public class IntSquare {
+public abstract class IntSquareAbstract {
 
     
     //implementation
    private  int squareValue;
+
+   /**
+    * @return the squareValue
+    */
+   public int getSquareValue() {
+       return squareValue;
+   }
+
+   /**
+    * @param squareValue the squareValue to set
+    */
+   public void setSquareValue(int squareValue) {
+       this.squareValue = squareValue;
+   }
 
 
    /* //interfaces
@@ -26,17 +40,14 @@ public class IntSquare {
     //solution - Encapsuation - Abstraction
 
     //interfaces
-    public int getSquare(int value){
-        this.squareValue = this.calculateSquare(value);
-        return this.squareValue;
-    }
+    public abstract int getSquare(int value);
 
 
-    //implementation
-    private int calculateSquare(int value){
-        //return (int)Math.pow(value, 2);//tuong lai = n lan thay doi
-        return value * value;
-    }
+   
+   
+   
+   
+   
 
 
 

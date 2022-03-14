@@ -3,7 +3,7 @@
 *  author: cgm
 */
 package k14dhpm2.tuan3.buoi5;
-
+//Client
 public class IntSquareTestDrive {
     public static void main(String[] args) {
 

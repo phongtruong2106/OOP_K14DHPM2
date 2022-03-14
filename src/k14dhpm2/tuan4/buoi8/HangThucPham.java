@@ -82,15 +82,20 @@ public class HangThucPham {
         this.setNgayHetHan(ngayHetHan);
     }
 
-    public boolean kiemTraHSD(){//boolean
+    public boolean kiemTraHSD(){//boolean//interface
+        return this.tinhHSD();
+    }
+
+    private boolean tinhHSD(){//implementation
+
         boolean isHetHan = false;//con han
         Date ngayHienTai = new Date();
-
         if(this.ngayHetHan.before(ngayHienTai)){
             isHetHan = true;
         }
 
         return isHetHan;
+
     }
 
    
