@@ -13,7 +13,7 @@ public abstract class Animal {
 
     //interface
     protected abstract void makeNoise();
-    protected abstract void eat();
+    protected abstract void eat();//quan tam
 
 
 

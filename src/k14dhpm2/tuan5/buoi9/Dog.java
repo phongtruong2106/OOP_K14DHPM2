@@ -4,7 +4,7 @@
 */
 package k14dhpm2.tuan5.buoi9;
 
-public class Dog extends Animal implements Pet, IntName {
+public class Dog extends Animal  implements Pet, IntName {
 
 
     public void chaseCat(){
@@ -13,6 +13,8 @@ public class Dog extends Animal implements Pet, IntName {
 
     @Override
     protected void eat() {
+        //implementation - cài đặt chi tiết
+        //cài đặt các code vào đây
         System.out.println("Dog eating Rice ...");
     }
 
@@ -23,14 +25,13 @@ public class Dog extends Animal implements Pet, IntName {
 
     @Override
     public void beFriendly() {
-        // TODO Auto-generated method stub
+        System.out.println("Dog Friendly ...");
         
     }
 
     @Override
     public void play() {
-        // TODO Auto-generated method stub
-        
+            System.out.println("Play ....");        
     }
 
     @Override

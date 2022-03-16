@@ -4,10 +4,11 @@
 */
 package k14dhpm2.tuan4.buoi8;
 
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class HangThucPham {
+public class HangThucPham implements Serializable {
 
     private String maHang;
     private String tenHang;
@@ -34,11 +35,11 @@ public class HangThucPham {
      * @param ngayHetHan the ngayHetHan to set
      */
     public void setNgayHetHan(Date ngayHetHan) {
-        if(ngayHetHan.after(ngaySX)){
+        //if(ngayHetHan.after(ngaySX)){
             this.ngayHetHan = ngayHetHan;
-        }else{
-            System.out.println("Ngay Het Han phai sau ngay Sx !!!");
-        }
+       // }else{
+           // System.out.println("Ngay Het Han phai sau ngay Sx !!!");
+       // }
         
     }
 

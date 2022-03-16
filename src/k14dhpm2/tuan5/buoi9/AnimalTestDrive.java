@@ -17,38 +17,38 @@ public class AnimalTestDrive {
         // animal.makeNoise();
         // animal.eat();
 
-        Animal animal = new Cat();
-        animal.eat();
-        animal.makeNoise();
+        // Animal animal = new Cat();
+        // animal.eat();
+        // animal.makeNoise();
 
-        Animal animal2 = new Dog();//okay
-        animal2.eat();
-        animal2.makeNoise();
+        // Animal animal2 = new Dog();//okay
+        // animal2.eat();
+        // animal2.makeNoise();
 
-        Animal animal3 = new Lion();//okay 
-        animal3.eat();
-        animal3.makeNoise();
+        // Animal animal3 = new Lion();//okay 
+        // animal3.eat();
+        // animal3.makeNoise();
 
 
-        Wolf wolf = new Wolf();
-        wolf.roam();
-        wolf.makeNoise();
-        wolf.eat();
+        // Wolf wolf = new Wolf();
+        // wolf.roam();
+        // wolf.makeNoise();
+        // wolf.eat();
 
-        Cat cat = new Cat();//????
+        // Cat cat = new Cat();//????
 
-        cat.eat();
+        // cat.eat();
 
-        Animal animalCat = new Cat();
-        animalCat.eat();//chay thi no moi lien ket den than ham implementation cu the
+        // Animal animalCat = new Cat();
+        // // animalCat.eat();//chay thi no moi lien ket den than ham implementation cu the
 
 
 
         //Feline feline = new Feline();
 
-        Feline feline = new Lion();
+        // Feline feline = new Lion();
 
-        Lion lion = new Lion();
+        // Lion lion = new Lion();
 
 
         //ArrayList
@@ -57,6 +57,23 @@ public class AnimalTestDrive {
 
         List list = new ArrayList<>();//interface
         
+
+        //
+
+        //CLIENT CODE
+
+        //abstract
+        Animal animal4 = new Dog();
+        animal4.eat();
+        animal4.makeNoise();
+
+
+
+        //không nên
+        //concrete
+        Dog dog = new Dog(); //implementation -- không
+        dog.eat();
+        dog.makeNoise();
 
     
 
