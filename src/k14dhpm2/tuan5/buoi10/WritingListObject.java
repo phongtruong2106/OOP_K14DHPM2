@@ -4,7 +4,6 @@
 */
 package k14dhpm2.tuan5.buoi10;
 
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -24,15 +23,16 @@ public class WritingListObject {
         List<HangThucPham> list = new ArrayList<>();
         list.add(hangThucPham);
         list.add(hangThucPham2);
-//HangThucPham hangThucPham2 = new HangThucPham(maHang, tenHang, donGia, ngaySX, ngayHetHan)
-//ghi vào 1 file cụ thể
+        // HangThucPham hangThucPham2 = new HangThucPham(maHang, tenHang, donGia,
+        // ngaySX, ngayHetHan)
+        // ghi vào 1 file cụ thể
         FileOutputStream outFile = new FileOutputStream("htp.dat");
-//chuyển đối tượng sang dạng trung gian
+        // chuyển đối tượng sang dạng trung gian
         ObjectOutputStream objOut = new ObjectOutputStream(outFile);
-//tiến hành ghi
+        // tiến hành ghi
         objOut.writeObject(list);
         objOut.close();
-        
+
     }
-    
+
 }

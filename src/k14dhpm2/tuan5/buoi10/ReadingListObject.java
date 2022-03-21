@@ -17,12 +17,12 @@ public class ReadingListObject {
         FileInputStream inFile = new FileInputStream("htp.dat");
         ObjectInputStream objIn = new ObjectInputStream(inFile);
         List<HangThucPham> list = (List) objIn.readObject();
-        
-        //chỉnh sửa, cập nhật thông tin của HangHoa
+
+        // chỉnh sửa, cập nhật thông tin của HangHoa
 
         for (HangThucPham hangThucPham : list) {
             System.out.println(hangThucPham);
         }
     }
-    
+
 }

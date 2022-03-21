@@ -8,7 +8,8 @@ public class DogRobot extends Robot implements Pet, IntName {
 
     @Override
     public void beFriendly() {
-        // TODO Auto-generated method stub
+
+        System.out.println("Robot Friendly ...");
         
     }
 

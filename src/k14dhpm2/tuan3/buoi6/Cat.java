@@ -4,7 +4,7 @@
 */
 package k14dhpm2.tuan3.buoi6;
 
-public class Cat extends Feline{
+public class Cat extends Feline implements Pet{
 
     //dac thu cua rieng no
     @Override

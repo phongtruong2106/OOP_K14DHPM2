@@ -21,7 +21,7 @@ public class Cat extends Feline implements Pet{
     }
 
     @Override
-    protected void makeNoise() {
+    public void makeNoise() {
         System.out.println("Meo meo ...");
     }
 
@@ -32,7 +32,8 @@ public class Cat extends Feline implements Pet{
 
     @Override
     public void beFriendly() {
-        // TODO Auto-generated method stub
+
+        System.out.println("Cat Friend ly ...");
         
     }
 

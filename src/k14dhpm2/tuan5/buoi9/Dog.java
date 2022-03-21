@@ -19,7 +19,7 @@ public class Dog extends Animal  implements Pet, IntName {
     }
 
     @Override
-    protected void makeNoise() {
+    public void makeNoise() {
         System.out.println("Dog Noise ....");
     }
 
