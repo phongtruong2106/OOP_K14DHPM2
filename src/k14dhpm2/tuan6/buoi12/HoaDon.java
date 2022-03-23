@@ -12,6 +12,14 @@ public abstract class HoaDon {
     private String tenKH;
     private String maPhong;
     private double donGia;
+    private static int soLuongHD;
+
+    /**
+     * @return the soLuongHD
+     */
+    public static int getSoLuongHD() {
+        return soLuongHD;
+    }
     /**
      * @param maHD
      * @param ngayHD
@@ -25,7 +33,14 @@ public abstract class HoaDon {
         this.tenKH = tenKH;
         this.maPhong = maPhong;
         this.donGia = donGia;
+        this.tangSLHD();;
     }
+
+    private void tangSLHD(){
+        soLuongHD++;
+    }
+
+
 
     /**
      * @return the maHD
@@ -35,7 +50,9 @@ public abstract class HoaDon {
     }
 
 
-    public HoaDon(){}
+    public HoaDon(){
+        this.tangSLHD();;
+    }
 
     public abstract double tinhTien();
 
