@@ -9,6 +9,14 @@ public abstract class Animal {
     private String picture;
     private String food;
     private int hunger;
+    private String name;
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
 
 
     //interface

@@ -29,6 +29,7 @@ public class DaHinhPet {
 
         for (Pet pet : list) {
             pet.beFriendly();
+            
         }
     }
     

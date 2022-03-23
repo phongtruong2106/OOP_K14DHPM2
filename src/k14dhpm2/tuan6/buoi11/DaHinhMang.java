@@ -38,7 +38,9 @@ public class DaHinhMang {
             //if(animal instanceof Dog){
 
                 //rang buoc code tre
-                animal.makeNoise();//DA 
+                animal.makeNoise();//DA - gửu thông điệp- message
+                //gửi cùng 1 thông điệp (override) cho các object khác nhau
+                //nhưng ứng với mỗi object khac nhau thì sẽ có hành vi khac nhau
 
            // }
         }
